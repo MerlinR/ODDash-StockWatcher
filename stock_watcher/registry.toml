@@ -1,0 +1,7 @@
+[plugin]
+title = "Stock Watcher"
+description = "Select a Stock and it will show the current value."
+author = "MerlinR"
+github = "https://github.com/MerlinR/ODDash-StockWatcher"
+tag = "latest"
+version = "0.0.1"
