@@ -1,2 +1,2 @@
-# ODDash-Weather-App
-Open Desk Dash Weather App Plugin
+# ODDash Stock Watcher
+Open Desk Dash Stock App plugin, will pull prices of current stocks and display them
