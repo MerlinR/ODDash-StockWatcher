@@ -1,4 +1,4 @@
-from flask import Blueprint, Flask, current_app, render_template, request
+from flask import Blueprint, render_template, request
 from yahoo_fin import stock_info
 
 api = Blueprint("stock_watcher", __name__)
