@@ -1,11 +1,24 @@
-{% extends "base.html" %}
-{% block title %}Stock Watcher{% endblock %}
+{% extends "base.html" %} {% block title %}Stock Watcher{% endblock %}
 
 {% block body %}
-<link rel="stylesheet" href={{ url_for('.static', filename='css/styles.css') }}>
-    <div class="title">
-        <h1>Stock Watcher</h1>
+
+<style>
+  @font-face {
+    font-family: "RalewayDots";
+    src: url("{{ url_for('.static',filename='fonts/RalewayDots-Regular.ttf') }}");
+  }
+</style>
+
+<link rel="stylesheet" href={{ url_for('.static',filename='css/styles.css') }}>
+<div class="title">
+  <h3>Stock Watcher</h3>
+  
+</div>
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <h1>{{stock}} - {{price}}</h1>
     </div>
-    <h1>{{price}}</h1>
-</body>
+  </div>
+</div>
 {% endblock %}
