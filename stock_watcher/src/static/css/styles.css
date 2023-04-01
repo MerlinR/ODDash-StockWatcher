@@ -1,5 +1,8 @@
-h1 {
+body {
   font-family: "RalewayDots", sans-serif;
+}
+
+h1 {
   font-weight: 100;
   font-size: 100px;
   text-align: center;
